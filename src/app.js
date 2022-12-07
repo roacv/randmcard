@@ -11,11 +11,10 @@ window.onload = function() {
   let pin = ["corazon.png", "diamante.png", "pica.png", "trebol.png"];
   let rannum = num[Math.floor(Math.random() * num.length)];
   let ranpin = pin[Math.floor(Math.random() * pin.length)];
-  console.log(rannum);
-  console.log(ranpin);
-  numero.innerHTML = rannum;
+  // console.log(rannum);
+  // console.log(ranpin);
   document.getElementById("imgtop").src = "../src/assets/img/" + ranpin;
   document.getElementById("imgbot").src = "../src/assets/img/" + ranpin;
-  console.log(numero);
+  numero.innerHTML = rannum;
   // console.log("Hello Rigo from the console!");
 };
